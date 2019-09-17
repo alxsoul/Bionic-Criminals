@@ -2,8 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
+body {
+    
+}
 
 .wrapper {
     padding: 0 14%;
@@ -69,7 +73,15 @@ header section:nth-child(3) {
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
-    
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+/* cta Hover Effect*/
+
+.cta:hover {
+    background: #2f2f2f;
+    color: #fff;
 }
 
 /* Header*/
@@ -140,11 +152,17 @@ nav > ul > li a {
     color: #000;
     font-family: Fira sans;
     opacity: .4;
-    transition: all .3s ease;
+    transition: all .4s ease;
     font-size: .75rem;
     font-weight: 600;
 }
 nav > ul > li .act {
+    opacity: 1;
+}
+
+/* Nav Links Hover Effect */
+
+li:hover > a {
     opacity: 1;
 }
 
