@@ -410,9 +410,8 @@ footer p {
 
  .head_contact h1 {
      grid-column: 3/ span 2;
-     grid-row: 3;
-     justify-content: center;
-     align-items: flex-end;
+     grid-row: 3/ 5;
+     align-self: center;
 }
 
  .head_contact img {
