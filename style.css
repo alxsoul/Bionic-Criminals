@@ -464,6 +464,7 @@ form textarea {
 }
 
 form label {
+	font-family: Fira Sans;
     margin-bottom: .4rem;
     color: #fffd;
 
@@ -498,10 +499,9 @@ textarea:-ms-input-placeholder {
 
 .contact footer {
     height: 100vh;
-    background: #777574 url("img/map-contact.png") no-repeat;
+    background: #777574 url('img/map-contact.png') no-repeat;
     background-size: 100% auto; 
-    padding: 2.8rem 6rem;
-    position: relative;
+    position: relative; padding-left:6rem; padding-right:6rem; padding-top:2.8rem; padding-bottom:2.8rem
 }
 
 .contact footer section {
