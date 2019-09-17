@@ -346,7 +346,6 @@ li:hover > a {
 }
 
 .second div:nth-child(1) h1 {
-    background: #C7DDEA;
     padding: 0rem 0.625rem;
 }
 
@@ -441,10 +440,6 @@ footer p {
     }
 
  /*First*/
-
-.first h1 {
-    color: #fff;
-}
 
 .contact .first > h1 {
     grid-column: 1/ span 3;
